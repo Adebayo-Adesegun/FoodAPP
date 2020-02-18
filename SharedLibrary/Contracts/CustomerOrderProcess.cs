@@ -1,9 +1,8 @@
 ﻿using System;
 
-namespace FoodApp_Customer.Models
+namespace SharedLibrary.Contracts
 {
-    [Serializable]
-    public class CustomerOrderProcess
+    public class ICustomerOrderProcess
     {
         public string OrderDate { get; set; }
         public string Item { get; set; }

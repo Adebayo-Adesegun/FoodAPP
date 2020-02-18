@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using FoodApp_OrderProcessing.Contracts;
 using MassTransit;
+using SharedLibrary.Contracts;
 
 namespace FoodApp_OrderProcessing.Models
 {

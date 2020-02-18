@@ -17,11 +17,11 @@ namespace FoodApp_Customer.Contracts
         /// <param name="sendEndpointProvider"></param>
         /// <param name="customerOrder"></param>
         /// <returns></returns>
-        public static async Task SendOrder(ISendEndpointProvider sendEndpointProvider, CustomerOrderProcess customerOrder)
-        {
-            var endpoint = await sendEndpointProvider.GetSendEndpoint(new Uri("localhost//order_submit_queue"));
-            await endpoint.Send(customerOrder);
-        }
+        //public static async Task SendOrder(ISendEndpointProvider sendEndpointProvider, CustomerOrderProcess customerOrder)
+        //{
+        //    var endpoint = await sendEndpointProvider.GetSendEndpoint(new Uri("localhost//order_submit_queue"));
+        //    await endpoint.Send(customerOrder);
+        //}
 
         /// <summary>
         /// Publish the Order mEssage
@@ -29,9 +29,9 @@ namespace FoodApp_Customer.Contracts
         /// <param name="publishEndpoint"></param>
         /// <param name="customerOrder"></param>
         /// <returns></returns>
-        public static async Task NotifyOrderSubmitted(IPublishEndpoint publishEndpoint, CustomerOrderProcess customerOrder)
-        {
-            await publishEndpoint.Publish<CustomerOrderProcess>(customerOrder);
-        }
+        //public static async Task NotifyOrderSubmitted(IPublishEndpoint publishEndpoint, CustomerOrderProcess customerOrder)
+        //{
+        //    await publishEndpoint.Publish<CustomerOrderProcess>(customerOrder);
+        //}
     }
 }

@@ -11,7 +11,14 @@
   <ItemGroup>
     <PackageReference Include="MassTransit" Version="6.1.0" />
     <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.1.0" />
+    <PackageReference Include="MassTransit.Extensions.Hosting" Version="1.0.11" />
+    <PackageReference Include="MassTransit.Extensions.Hosting.RabbitMq" Version="1.0.11" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="6.1.0" />
+    <PackageReference Include="MassTransit.RabbitMq.Extensions.Hosting" Version="1.0.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SharedLibrary\SharedLibrary.csproj" />
   </ItemGroup>
 
 

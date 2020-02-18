@@ -9,6 +9,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text;
 using Newtonsoft.Json;
+using SharedLibrary.Contracts;
 
 namespace FoodApp_Customer.Controllers
 {
@@ -35,7 +36,7 @@ namespace FoodApp_Customer.Controllers
 
         [HttpPost]
         [Route("Order")]
-        public async Task<IActionResult> CreateOrder(CustomerOrderProcess model)
+        public async Task<IActionResult> CreateOrder(ICustomerOrderProcess model)
         {
             // Customer order is sent to an order processing microservice queue an exchange name.
             try
