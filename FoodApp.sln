@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FoodApp_Customer", "FoodApp.Customer\FoodApp_Customer.csproj", "{98D986B7-3ED0-456A-865B-7A39E4DBE687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodApp_OrderProcessing", "FoodApp_OrderProcessing\FoodApp_OrderProcessing.csproj", "{8BA78F4D-0675-4CE0-B4EE-4B4D56C34BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D986B7-3ED0-456A-865B-7A39E4DBE687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D986B7-3ED0-456A-865B-7A39E4DBE687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D986B7-3ED0-456A-865B-7A39E4DBE687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D986B7-3ED0-456A-865B-7A39E4DBE687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA78F4D-0675-4CE0-B4EE-4B4D56C34BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA78F4D-0675-4CE0-B4EE-4B4D56C34BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA78F4D-0675-4CE0-B4EE-4B4D56C34BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA78F4D-0675-4CE0-B4EE-4B4D56C34BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BB16B02-7B64-4412-B61A-915336D859C4}
+	EndGlobalSection
+EndGlobal

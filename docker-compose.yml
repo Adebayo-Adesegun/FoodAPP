@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  foodapp.customer:
+    image: ${DOCKER_REGISTRY-}foodappcustomer
+    build:
+      context: .
+      dockerfile: FoodApp.Customer\Dockerfile
